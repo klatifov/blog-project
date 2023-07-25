@@ -106,7 +106,13 @@ body {
     line-height: 25px;
 }
 
+#news .container .card {
+    position: relative;
+}
+
 #news .container .card  a {
+    position: absolute;
+    bottom: 2px;
     background-color: #0d6efd;
     color: white;
     padding: 7px;
